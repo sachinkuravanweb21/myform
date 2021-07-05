@@ -1,0 +1,46 @@
+body {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(13, 15, 15);
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+button[type=submit] {
+  background-color: #59e717;
+  color: rgb(14, 11, 11);
+  padding: 12px 20px;
+  border: 1px solid rgb(13, 15, 15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type=reset] {
+  background-color: #59e717;
+  color: rgb(14, 11, 11);
+  padding: 12px 20px;
+  border: 1px solid rgb(13, 15, 15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #20a2bf;
+}
+button[type=reset]:hover {
+  background-color: #dfe215;
+}
+
+.container {
+  width: 60%;
+  border-radius: 20px;
+  background-color: #bad4d4;
+  padding: 40px;
+  border-color: black;
+  
+  
+}
